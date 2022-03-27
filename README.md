@@ -1,6 +1,5 @@
-# SIH-2022
-
-Starting a project for Smart India Hackathon
+# HTML-CSS-JS
+Starting learning web designing for a Smart India Hackathon project
 
 Problem Statement :
 
