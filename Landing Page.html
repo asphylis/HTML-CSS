@@ -2,6 +2,9 @@
 <html>
     <head>
         <style>
+        	button:hover, input:hover {
+            	transform: scale(1.1);
+            }
             h1 {text-align: center;}
             #rcorners-fields{
                 border-radius: 25px;
@@ -17,17 +20,11 @@
                 display: flex;
                 flex-wrap: wrap;
             }
-            #right{
-                flex: 2;
-                text-align: center;
-                border-style: ridge;
-                border-radius: 25px;
-            }
-            #left{
-                flex: 1;
-                text-align: center;
-                border-style: ridge;
-                border-radius: 25px;
+            #box{
+            flex: 1;
+            text-align: center;
+            border-style: ridge;
+            border-radius: 20px 40px;
             }
             .rightmargin
             {
@@ -41,16 +38,15 @@
     </head>
 
     <body>
-        <h3 style="color: grey;">Team : Filler Episodes</h3>
         <br><br>
         <h1 style="color:red;">Unique Student Id</h1>
         <div id="ash">
-            <div id="left">
+            <div id="box">
                 <br><br><br>
                 <input id="rcorners-fields" type="input" placeholder="Aadhar Number"><br><br>
                 <button style = "color: rgb(22, 1, 99);" id="rcorners-buttons" type="submit"><a href="DashBoard.html">Login</a></button>
             </div>
-            <div id="right">
+            <div id="box">
                 <br><br><br>
                 <input id="rcorners-fields" detype="input" placeholder="Unique ID"><br><br>
                 <button id="rcorners-buttons">
